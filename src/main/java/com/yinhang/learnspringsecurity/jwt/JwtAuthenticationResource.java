@@ -1,6 +1,5 @@
 package com.yinhang.learnspringsecurity.jwt;
 
-import java.security.Policy.Parameters;
 import java.time.Instant;
 import java.util.stream.Collectors;
 
@@ -11,7 +10,7 @@ import org.springframework.security.oauth2.jwt.JwtEncoderParameters;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 public class JwtAuthenticationResource {
 	
 	private JwtEncoder jwtEncoder;
