@@ -1,4 +1,4 @@
-package com.yinhang.learnspringsecurity;
+package com.yinhang.learnspringsecurity.resources;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldResource {
 	
-	@GetMapping("hello-world")
+	@GetMapping("/hello-world")
 	public String helloWorld() {
 		return "Hello World v1";
 	}
